@@ -1,0 +1,206 @@
+
+
+    
+body
+{
+	/*por defecto dejar en 16px letra de lectura en moviles*/
+	font-size: 16px;
+	/*es mas facilacomodar blockes centrados*/
+	text-align: center;
+	background: url('../images/bg2.jpg')center,
+	blue;
+	
+}
+/*receteamos bordes ponemos el widht a toda el ancho de la pagina*/
+	/*del body y header*/
+body, header
+{
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin: 0;
+}
+header
+{
+	/*alineamos el h1*/
+	text-align: left;
+
+	color: #3395CC;
+	background: #e4f5fc; /* Old browsers */
+background: -moz-linear-gradient(left,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 85%, #2ab0ed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(85%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 85%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 85%,#2ab0ed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 85%,#2ab0ed 100%); /* IE10+ */
+background: linear-gradient(to right,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 85%,#2ab0ed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 */
+
+	border-bottom: 1px solid #1E15BD;
+	box-shadow: 1px 1px 10px #e4f5fc;
+}
+h1
+{
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+#container
+{
+	background: url('../images/bg.jpg');
+	display: inline-block;
+	width: 80%;
+
+}
+#logo
+{
+	width: 50%;
+	margin-left: 1em;
+}
+#log 
+{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-top: 2em;
+	z-index: 2;
+}
+#log button
+{
+	font-size: 1.1em;
+	margin-right: 1em;
+	padding: 1em;
+	cursor: pointer;
+	background:#F0893C;
+	border: none;
+	color:white;
+	box-shadow: 1px 1px 10px #F0893C;
+}
+#log button:hover 
+{
+	font-size: 1.2em;
+	background: #EF463C;
+}
+footer 
+{
+	bottom: 0;
+	width: 100%;
+	background: gray;
+	font-size: 0.8em;
+	padding: 1.5em 0;
+	color: white;
+	box-shadow: 1px 1px 10px #2d2d2d;
+}
+h3 
+{
+color:#7415BD;
+text-shadow:1px 1px 10px #7415BD ;
+font-size: 1.5em;
+
+}
+#login
+{
+	background:url(../images/gota2.png) no-repeat right,
+	white;
+	box-shadow: 1px 1px 10px white;
+	width: 100%;
+	display: inline-block;
+	color:  #007D7E;
+	border-top: 5px solid #1E15BD !important;
+	border: 1px solid blue;
+	/*oculto*/
+	display: none;
+	overflow: hidden;
+}
+#login li
+{
+	margin: 0;
+	padding: 0;
+}
+#form
+{
+	list-style: none;
+	text-align: left;
+
+}
+#form input
+{
+	font-size: 1em;
+	text-align: center;
+	width: 15em;
+	height: 1.8em;
+}
+
+#Entrar
+{
+	
+	padding: 1em 7em;
+	color: #B2D618;
+	font-weight: 800;
+	background: #007D7E;
+	text-shadow:1px 1px 10px #007D7E;
+	cursor: pointer;
+	border: 0;
+	box-shadow: 1px 1px 10px #007D7E;
+	float: left;
+	margin-left: 3em;
+}
+#Entrar:hover 
+{
+	font-size: 0.9em;
+}
+.white
+{
+	background: white;
+}
+
+/*section tabs*/
+	
+#tabs
+{
+	width: 100%;
+}	
+#tabs ul
+{
+	margin: 0;
+	list-style: none;
+	box-shadow: 1px 1px 10px #A4D1EB;
+background: #A0DB37;
+}
+#tabs ul li 
+{
+	vertical-align: top;
+	display: inline-block;
+	padding: 1em 3em;
+	color: #1712A5;
+	text-shadow:1px 1px 10px white;
+	cursor: pointer;
+}
+#tabs ul li:hover 
+{
+	text-shadow:1px 1px 10px white;
+	font-weight: 600;
+	background: #A4D1EB; /* Old browsers */
+
+}
+#tabs p 
+{
+	font-size: 1.8em;
+	text-align: left;
+	margin-left: 4em;
+	margin-top: 2em;
+}
+#uno 
+{
+	background: url(../images/f1.jpg)no-repeat ;
+	background-size: 100%;
+	height: 400px;
+	color: #5733CC;
+	text-shadow:1px 1px 1px white,
+	1px 1px 5px white,
+	1px 1px 1px white,
+	1px 1px 10px white;
+}
+
+h2{
+	font-size: 2em;
+}
